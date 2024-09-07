@@ -33,9 +33,11 @@ class Card extends Component {
               <p data-testid="description-card" className="description-card">
                 { cardDescription }
               </p>
+              <div style={{ marginTop: '10px' }}>
               <Attribute datatestid="attr1-card" attribute={ cardAttr1 } name="Tamanho" />
-              <Attribute datatestid="attr2-card" attribute={ cardAttr2 }  name="Complexidade da célula"/>
+              <Attribute datatestid="attr2-card" attribute={ cardAttr2 }  name="Complexidade"/>
               <Attribute datatestid="attr3-card" attribute={ cardAttr3 }  name="Tempo de renovação"/>
+              </div>
               <RarityTrunfo cardRare={ cardRare } cardTrunfo={ cardTrunfo } />
             </div>
           </div>
