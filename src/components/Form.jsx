@@ -53,7 +53,7 @@ class Form extends Component {
         </label>
 
         <label htmlFor="cardAttr2" className="label-up">
-        Complexidade da célula
+        Complexidade da Célula
           <input
             type="number"
             data-testid="attr2-input"
