@@ -34,7 +34,7 @@ class Card extends Component {
                 { cardDescription }
               </p>
               <Attribute datatestid="attr1-card" attribute={ cardAttr1 } name="Tamanho" />
-              <Attribute datatestid="attr2-card" attribute={ cardAttr2 }  name="Função Energética"/>
+              <Attribute datatestid="attr2-card" attribute={ cardAttr2 }  name="Complexidade da célula"/>
               <Attribute datatestid="attr3-card" attribute={ cardAttr3 }  name="Importância na Célula"/>
               <RarityTrunfo cardRare={ cardRare } cardTrunfo={ cardTrunfo } />
             </div>

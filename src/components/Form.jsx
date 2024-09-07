@@ -53,7 +53,7 @@ class Form extends Component {
         </label>
 
         <label htmlFor="cardAttr2" className="label-up">
-        Função Energética
+        Complexidade da célula
           <input
             type="number"
             data-testid="attr2-input"
