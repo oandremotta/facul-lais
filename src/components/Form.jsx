@@ -64,7 +64,7 @@ class Form extends Component {
         </label>
 
         <label htmlFor="cardAttr3" className="label-up">
-        Importância na Célula
+        Tempo de renovação
           <input
             type="number"
             data-testid="attr3-input"
